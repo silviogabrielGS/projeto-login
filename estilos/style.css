@@ -16,7 +16,7 @@
 }
 
 body , html {
-    background-color: #043152 ;
+    background-color:#043152 ;
     height: 100vh;
     width: 100vw;
 }
@@ -39,15 +39,25 @@ section {
     transform: translate(-50%,-50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.402);
+
+    transition: width 0.2s , height 0.2s;
+    transition-timing-function: ease;
 }
 
-img {
-    width: 100%;
-    height: 200px;
 
+#foto {
+    background: #043152 url(../imagens/imagem-de-fundo.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 30%;
+    
 }
 
 #formulario {
     padding: 10px;
     display: block;
 }
+
