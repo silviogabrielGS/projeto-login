@@ -61,3 +61,22 @@ section {
     display: block;
 }
 
+.bottom {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    background-color:#e19300 ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.bottom:hover {
+    background-color: #ba7900;
+    cursor: pointer;
+}
+
+form label {
+    display: none;
+}
+
