@@ -6,7 +6,7 @@
     }
     section {
         width: 80vw;
-        height: 500px;
+        height: 300px;
     }
     #formulario {
         float: right;
@@ -25,9 +25,14 @@
     body, main{
         background-image: linear-gradient(to top ,#35796a ,#043152 );
     }
+
+    p {
+        margin: 10px;
+    }
     
     section {
         width: 900px ;
+        height: 350px;
     }
 
     #foto {
